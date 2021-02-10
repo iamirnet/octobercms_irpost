@@ -1,0 +1,56 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.name
+        span: auto
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.name_comment
+    code:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.code
+        span: auto
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.code_comment
+        preset:
+            field: name
+            type: slug
+    _irpost_custom500:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.custom_500
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.custom_comment_500
+        span: auto
+        type: minimall.price
+    _irpost_pishtaz500:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_500
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_comment_500
+        span: auto
+        type: minimall.price
+    _irpost_custom1000:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.custom_1000
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.custom_comment_1000
+        span: auto
+        type: minimall.price
+    _irpost_pishtaz1000:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_1000
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_comment_1000
+        span: auto
+        type: minimall.price
+    _irpost_custom2000:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.custom_2000
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.custom_comment_2000
+        span: auto
+        type: minimall.price
+    _irpost_pishtaz2000:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_2000
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_comment_2000
+        span: auto
+        type: minimall.price
+    _irpost_customup:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.custom_up
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.custom_comment_up
+        span: auto
+        type: minimall.price
+    _irpost_pishtazup:
+        label: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_up
+        commentAbove: iamirnet.irpost::lang.locations.state.cities.fields.pishtaz_comment_up
+        span: auto
+        type: minimall.price

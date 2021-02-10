@@ -1,0 +1,21 @@
+# ===================================
+#  Extended Shipping Field Definitions
+# ===================================
+
+irpost_type:
+    label: iamirnet.irpost::lang.irpost.irpost_type
+    span: auto
+    type: dropdown
+    tab: 'iamirnet.irpost::lang.irpost.title'
+    oc.commentPosition: ''
+    options:
+        none: iamirnet.irpost::lang.irpost.none
+        smart: iamirnet.irpost::lang.irpost.smart
+        pishtaz: iamirnet.irpost::lang.irpost.pishtaz
+        custom: iamirnet.irpost::lang.irpost.custom
+irpost_free:
+    label: 'iamirnet.irpost::lang.irpost.free'
+    oc.commentPosition: ''
+    span: auto
+    type: text
+    tab: 'iamirnet.irpost::lang.irpost.title'

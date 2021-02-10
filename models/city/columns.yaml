@@ -1,0 +1,12 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: azarinweb.location::lang.state.name
+        searchable: true
+
+    code:
+        label: azarinweb.location::lang.state.code
+        searchable: true

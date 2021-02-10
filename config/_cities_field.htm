@@ -1,0 +1,14 @@
+<p>
+    <a
+            href="javascript:;"
+            class="btn btn-secondary oc-icon-plus"
+            data-control="popup"
+            data-handler="onLoadCreateCityForm"
+            data-size="large">
+        <?= e(trans('iamirnet.irpost::lang.locations.state.cities.create')) ?>
+    </a>
+</p>
+
+<div id="cityList">
+    <?= $this->makePartial('$/iamirnet/irpost/config/_cities_list.htm', ['cities' => $model->cities]) ?>
+</div>

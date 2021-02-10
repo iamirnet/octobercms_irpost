@@ -1,0 +1,28 @@
+fields:
+  base:
+    label: iamirnet.irpost::lang.irpost.setting
+    type: section
+  irpost_tax_rate:
+    label: iamirnet.irpost::lang.irpost.tax_rate
+    span: auto
+    type: text
+  irpost_id_price:
+    label: iamirnet.irpost::lang.irpost.id_price
+    span: auto
+    type: text
+  irpost_fine_price:
+    label: iamirnet.irpost::lang.irpost.fine_price
+    span: auto
+    type: text
+  irpost_ads_price:
+    label: iamirnet.irpost::lang.irpost.ads_price
+    span: auto
+    type: text
+  irpost_insurance_price:
+    label: iamirnet.irpost::lang.irpost.insurance_price
+    span: auto
+    type: text
+  irpost_packaging_price:
+    label: iamirnet.irpost::lang.irpost.packaging_price
+    span: auto
+    type: text

@@ -1,0 +1,9 @@
+# ===================================
+#  Extended State Field Definitions
+# ===================================
+
+
+cities:
+    tab: 'iamirnet.irpost::lang.locations.state.cities.title'
+    type: partial
+    path: $/iamirnet/irpost/config/_cities_field.htm
