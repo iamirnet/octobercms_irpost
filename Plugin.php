@@ -74,7 +74,7 @@ class Plugin extends PluginBase
                 'label'       => 'iamirnet.irpost::lang.irpost.title',
                 'description' => 'iamirnet.irpost::lang.irpost.description',
                 'category'    => 'iamirnet.minimall::lang.settings.shipping.title',
-                'icon'        => 'icon-credit-card',
+                'icon'        => 'icon-cog',
                 'class'       => IRPostSettings::class,
                 'order'       => 800,
                 'permissions' => ['iamirnet.irpost.access_irpost']

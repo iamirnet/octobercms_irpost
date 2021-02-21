@@ -1,6 +1,6 @@
 fields:
   base:
-    label: iamirnet.irpost::lang.irpost.setting
+    label: iamirnet.irpost::lang.irpost.title
     type: section
   irpost_tax_rate:
     label: iamirnet.irpost::lang.irpost.tax_rate
